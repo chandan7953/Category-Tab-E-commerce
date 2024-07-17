@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Category Tab E-commerce</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="header-title">SELECT YOUR CHOICE</h1>
+
+      <!-- Container for the selection tabs -->
+      <div class="tab-container">
+        <div class="tabs">
+          <button class="tab-button active" data-category="Men">
+            <img src="./assets/emoji-men.svg" alt="Men" class="icon" />Men
+          </button>
+          <button class="tab-button" data-category="Women">
+            <img src="./assets/emoji-women.svg" alt="Women" class="icon" />Women
+          </button>
+          <button class="tab-button" data-category="Kids">
+            <img src="./assets/emoji-kids.svg" alt="Kids" class="icon" />Kids
+          </button>
+        </div>
+      </div>
+
+      <!-- Container to hold the product cards -->
+      <div class="products" id="products"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
