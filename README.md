@@ -1,1 +1,2 @@
-Visit the live site [here](https://chandan7953.github.io/Category-Tab-E-commerce/){:target="_blank"}.
+Visit the live site [here](https://category-tab-e-commerce-huie265ms.vercel.app/)
+
